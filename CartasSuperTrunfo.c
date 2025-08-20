@@ -27,7 +27,7 @@ int main() {
         printf("Digite a primeira letra do Estado de A a H seguida de um número de 01 a 04: \n");
         scanf(" %s", &codcarta1);
 
-        printf("Digite o nome da cidade: \n");
+        printf("Digite o nome da cidade:\n");
         fgets(nomecid1, 50, stdin);
         nomecid1[strcspn(nomecid1, "\n")]=0;
         //scanf(" %s", &nomecid1);
