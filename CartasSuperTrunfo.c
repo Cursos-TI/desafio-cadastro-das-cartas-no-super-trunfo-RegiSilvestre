@@ -29,7 +29,7 @@ int main() {
 
         printf("Digite o nome da cidade: \n");
         fgets(nomecid1, 50, stdin);
-        nomecid1[strcpn(nomecid1)]=0;
+        nomecid1[strcpn(nomecid1, "\n")]=0;
         //scanf(" %s", &nomecid1);
 
         printf("Digite a população desta cidade: \n");
