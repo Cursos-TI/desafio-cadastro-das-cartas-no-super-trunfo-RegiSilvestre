@@ -65,27 +65,27 @@ int main() {
 
 
     
-     printf("---CARTA 1---\n"); // Primeira carta trunfo.
+        printf("---CARTA 1---\n"); // Primeira carta trunfo.
      
-     printf("Estado: %c\n", estado1);
-     printf("Código: %s\n", codcarta1);
-     printf("Nome da Cidade: %s\n", nomecid1);   
-     printf("População: %d\n", populacao1);
-     printf("Área: %.2f km² \n", aream21);
-     printf("PIB: %.2f bilhões de reais \n", pib1); 
-     printf("Números de Pontos Turisticos: %d \n", numpt1);
+        printf("Estado: %c\n", estado1);
+        printf("Código: %s\n", codcarta1);
+        printf("Nome da Cidade: %s\n", nomecid1);   
+        printf("População: %d\n", populacao1);
+        printf("Área: %.2f km² \n", aream21);
+        printf("PIB: %.2f bilhões de reais \n", pib1); 
+        printf("Números de Pontos Turisticos: %d \n", numpt1);
 
 
 
-                    printf("---CARTA 2--- \n"); // Primeira carta trunfo.
+                printf("---CARTA 2--- \n"); // Primeira carta trunfo.
                     
-                    printf("Estado: %c\n", estado2);
-                    printf("Código: %s\n", codcarta2);
-                    printf("Nome da Cidade: %s\n", nomecid2);   
-                    printf("População: %d\n", populacao2);
-                    printf("Área: %.2f km² \n", aream22);
-                    printf("PIB: %.2f bilhões de reais \n", pib2); 
-                    printf("Números de Pontos Turisticos: %d \n", numpt2);
+                printf("Estado: %c\n", estado2);
+                printf("Código: %s\n", codcarta2);
+                printf("Nome da Cidade: %s\n", nomecid2);   
+                printf("População: %d\n", populacao2);
+                printf("Área: %.2f km² \n", aream22);
+                printf("PIB: %.2f bilhões de reais \n", pib2); 
+                printf("Números de Pontos Turisticos: %d \n", numpt2);
 
 
     return 0;
