@@ -15,7 +15,7 @@ int main() {
         printf("---CARTA 1--- \n"); // Primeira carta trunfo.
         
         printf("Digite a primeira letra do Estado de A a H: \n");
-        scanf(" %c", &estado1);
+        scanf("%c", &estado1);
     
         printf("Digite a primeira letra do Estado de A a H seguida de um número de 01 a 04: \n");
         scanf(" %s", codcarta1);
