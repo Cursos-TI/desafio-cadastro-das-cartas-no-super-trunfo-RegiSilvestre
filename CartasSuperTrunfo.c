@@ -15,7 +15,7 @@ int main() {
         printf("---CARTA 1--- \n"); // Primeira carta trunfo.
         
         printf("Digite a primeira letra do Estado de A a H: \n");
-        scanf("%c", &estado1);
+        scanf(" %c", &estado1);
     
         printf("Digite a primeira letra do Estado de A a H seguida de um número de 01 a 04: \n");
         scanf(" %s", codcarta1);
@@ -23,7 +23,7 @@ int main() {
         printf("Digite o nome da cidade: \n");
         getchar();
         fgets(nomecid1, 50, stdin);
-        nomecid1[strcspn(nomecid1, "\n")]=0;
+        //nomecid1[strcspn(nomecid1, "\n")]=0;
         
         printf("Digite a população desta cidade: \n");
         scanf(" %d", &populacao1);
