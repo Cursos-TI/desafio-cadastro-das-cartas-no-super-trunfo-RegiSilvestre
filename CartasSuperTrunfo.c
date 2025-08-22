@@ -4,8 +4,8 @@
 int main() {
     
     char estado1, estado2;
-    char codcarta1[10], codcarta2[10];
-    char nomecid1[50], nomecid2[50];
+    char codcarta1[3], codcarta2[3];
+    char nomecid1[10], nomecid2[10];
     int populacao1, populacao2;
     float aream21, aream22;
     float pib1, pib2;
