@@ -46,7 +46,7 @@ int main() {
                 scanf(" %s", codcarta2);
 
                 printf("Digite o nome da cidade: \n");
-                getchar();
+                getchar();// usado para não pular linha e poder colocar o nome da cidade
                 fgets(nomecid2, 50, stdin);
                                        
                 printf("Digite a população desta cidade: \n");
@@ -64,7 +64,7 @@ int main() {
                 densPop2 = populacao2 / aream22;
                 pibPCap2 = pib2 / populacao2;
                 
-                printf("\n");
+                printf("\n"); // usado para pular linha
     
         printf("******CARTA 1******\n"); // Primeira carta trunfo.
         printf("Estado: %c\n", estado1);
