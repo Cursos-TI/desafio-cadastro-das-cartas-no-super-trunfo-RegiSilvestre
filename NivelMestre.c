@@ -113,8 +113,10 @@ int main() {
                 printf("\n");
         
         //Exibir resultado das comparações das Cartas
-        // Resposta 1 - vence Carta 1 e Resposta 0 - vence Carta 2 
+        // Resposta 1 -> Sim ------- Resposta 0 -> Não 
         printf("******RESULTADO DA COMPARAÇÃO DAS CARTAS******\n");
+        printf("Resposta 1 ->Sim --- Resposta 0 -> Não\n");
+        printf("\n"); // usado para pular linha.
         printf("População: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoPop);
         printf("Área: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoArea);
         printf("PIB: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoPib);
