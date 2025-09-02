@@ -72,8 +72,8 @@ int main() {
 
         /* Somando todos os atributos numéricos (população, área, PIB, número de pontos turísticos, 
         PIB per capita e o inverso da densidade populacional – quanto menor a densidade, maior o "poder")*/
-        superPoderCarta1 = (float) populacao1 + aream21 + pib1 + numpt1 + pibPCap1 + (1 / densPop1);// Conversão explícita da população para float.
-        superPoderCarta2 = (float) populacao2 + aream22 + pib2 + numpt2 + pibPCap2 + (1 / densPop2);// Conversão explícita da população para float.
+        superPoderCarta1 = (float) populacao1 + aream21 + pib1 + (float) numpt1 + pibPCap1 + (1 / densPop1);// Conversão explícita da população e pontos turisticos para float.
+        superPoderCarta2 = (float) populacao2 + aream22 + pib2 + (float) numpt2 + pibPCap2 + (1 / densPop2);// Conversão explícita da população e pontos turisticos para float.
          
     // Comparação das Cartas
     resultadoPop = populacao1 > populacao2;
