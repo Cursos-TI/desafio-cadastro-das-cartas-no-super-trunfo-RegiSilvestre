@@ -114,17 +114,17 @@ int main() {
                 printf("\n");// Usado para pular uma linha.
         
         //Exibir resultado das comparações das Cartas
-        // Resposta 1 -> Sim ------- Resposta 0 -> Não 
+         
         printf("******RESULTADO DA COMPARAÇÃO DAS CARTAS******\n");
-        printf("Resposta 1 ->Sim --- Resposta 0 -> Não\n");
+        printf("Carta 1(Vence quando for resposta 1) ----- Carta 2(Vence quando for resposta 0)\n");
         printf("\n"); // usado para pular linha.
-        printf("População: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoPop);
-        printf("Área: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoArea);
-        printf("PIB: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoPib);
-        printf("Número de Pontos Turisticos: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoNumpt);
-        printf("Densidade Populacional: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoDensPop);
-        printf("PIB per Capita: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoPibPcap);
-        printf("Super Poder: Carta 1 venceu Carta 2? Resposta: %d\n", resultadoSuperPoder);
+        printf("População: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoPop);
+        printf("Área: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoArea);
+        printf("PIB: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoPib);
+        printf("Número de Pontos Turisticos: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoNumpt);
+        printf("Densidade Populacional: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoDensPop);
+        printf("PIB per Capita: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoPibPcap);
+        printf("Super Poder: Carta 1 (1) >>>>> Carta 2 (0) - Vencedor: %d\n", resultadoSuperPoder);
 
 
     return 0;
